@@ -1,0 +1,41 @@
+.sidebar-list div a{
+    display: block;
+    width: 80%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #e1e1e1;
+    margin: 1px 0;
+    font-size: 12px;
+    padding-left: 25px;
+    color: black;
+}
+.sidebar-list p{
+    font-size: 16px;
+    height: 60px;
+    line-height: 60px;
+}
+.sidebar-list p::before{
+    content: '|';
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+.group ul li{
+    padding-left: 40px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.group ul li div{
+    margin: 5px 0;
+}
+.notice{
+    font-weight: normal;
+}
+.none-anything{
+    width: 1060px;
+    margin: 0 auto;
+    text-align: center;
+}
+.currentcolor{
+    border: 1px solid black;
+}
